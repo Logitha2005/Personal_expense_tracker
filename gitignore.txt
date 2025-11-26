@@ -1,0 +1,44 @@
+#project Structue
+.
+├── backend/              # Flask REST API
+│   ├── app.py           # Main application entry point
+│   ├── auth.py          # Authentication endpoints
+│   ├── expenses.py      # Expense CRUD endpoints
+│   ├── reports.py       # Monthly report endpoints
+│   ├── requirements.txt # Python dependencies
+│   └── .env.example     # Environment variables template
+│
+└── flutter_app/         # Flutter frontend
+    ├── lib/
+    │   ├── main.dart
+    │   ├── models/
+    │   ├── screens/
+    │   ├── services/
+    │   └── utils/
+    ├── pubspec.yaml
+    └── .env.example
+
+
+
+
+#Backend
+
+- __pycache__
+venv
+.env.example
+expense_tracker.db
+
+
+#Frontend
+
+.dart_tool
+build
+.env
+.env.example
+.flutter-plugins-dependencies
+pubspec.lock
+index.js
+package.json
+package-lock.json
+
+
